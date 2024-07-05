@@ -1,0 +1,274 @@
+@import url("https://use.typekit.net/hou6asi.css");
+
+:root {
+    --primary: #C271FF;
+    --bk: #071629;
+    --shadow: #00000049
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./assets/Object.png);
+    background-repeat: no-repeat;
+    font-family: 'source-sans-pro', sans-serif;
+}
+
+/*----------------header-----------------*/
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-direction: row;
+    max-width: 1060px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li:first-child {
+    margin-left: auto;
+}
+
+.firstsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstsection h1 {
+    font-size: 100px;
+    color: white;
+    padding: 0;
+    margin-top: 160px;
+}
+
+.firstsection h2 {
+    font-weight: 100;
+
+}
+
+.firstsection h2 span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.firstsection_div_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstsection_span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.firstsection_span span {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: white;
+
+}
+
+.firstsection_div_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.rndImg {
+    border-radius: 100px;
+}
+
+/* .firstsection_div_three {
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+.firstsection_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+.firstsection_image p {
+    font-size: 12px;
+}
+
+thirdsection_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdSection_image {
+    display: flex;
+    gap: 10px;
+    color: var(--primary);
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    width: 200px;
+    margin: 50px;
+    box-shadow: 0px 5px 10px var(--shadow);
+}
+
+.secondsection {
+    background-color: var(--primary);
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondsection_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    color: white;
+}
+
+.thirdsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 100px;
+}
+
+.thirdsection h2 {
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+
+.thirdsection span {
+    color: var(--primary);
+    font-weight: 100;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0;
+    width: 600px;
+}
+
+.secondsection h3 {
+    font-size: 16px;
+}
+
+.secondsection p {
+    font-style: italic;
+}
+
+
+footer {
+    color: white;
+    background-color: rgb(11, 11, 49);
+    padding: 20px;
+}
+
+.footerSection_div {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    color: var(--primary);
+}
+
+.starImg {
+    height: 50px;
+    width: 50px;
+}
+
+footer {
+    background-color: var(--bk);
+    padding: 20px;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSection_div {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.socialImage {
+    color: white;
+}
+
+footer p {
+    margin-top: 100px;
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
