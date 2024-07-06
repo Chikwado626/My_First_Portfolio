@@ -60,13 +60,14 @@ header .navbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .firstsection h1 {
     font-size: 100px;
     color: white;
     padding: 0;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 .firstsection h2 {
@@ -77,6 +78,11 @@ header .navbar {
 .firstsection h2 span {
     color: #C271FF;
     font-weight: 700;
+}
+
+.firstsection h3 {
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 .firstsection_div_one {
@@ -114,11 +120,11 @@ header .navbar {
     border-radius: 100px;
 }
 
-/* .firstsection_div_three {
+.firstsection_div_three {
     display: flex;
     flex-direction: row;
-    
-} */
+    max-width: 1000px
+}
 
 .firstsection_image {
     display: flex;
@@ -132,29 +138,24 @@ header .navbar {
 
 .firstsection_image p {
     font-size: 12px;
-}
-
-thirdsection_div {
-    display: flex;
-    flex-direction: row;
-}
-
-.thirdSection_image {
-    display: flex;
-    gap: 10px;
-    color: var(--primary);
+    font-style: italic;
+    line-height: 1.5;
 }
 
 button {
     background-color: var(--primary);
+    color: #fff;
     border: none;
-    padding: 10px;
-    border-radius: 100px;
-    color: white;
-    width: 200px;
-    margin: 50px;
-    box-shadow: 0px 5px 10px var(--shadow);
+    padding: 10px 20px;
+    border-radius: 22px;
+    cursor: pointer;
+    font-family: 'source-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+/* ---------------second section------------------- */
 
 .secondsection {
     background-color: var(--primary);
@@ -168,35 +169,24 @@ button {
 .secondsection_text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex;
+    align-items: flex;
     padding-left: 50px;
     color: white;
-}
-
-.thirdsection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 100px;
-}
-
-.thirdsection h2 {
-    padding-bottom: 50px;
-    font-weight: 100;
-}
-
-.thirdsection span {
-    color: var(--primary);
-    font-weight: 100;
 }
 
 blockquote {
     padding: 0;
     margin: 0;
     width: 600px;
+}
+
+
+.secondsection_image {
+    display: flex;
+    grid-row: 2;
+    justify-content: space-between;
+    max-width: 1040px;
 }
 
 .secondsection h3 {
@@ -207,6 +197,195 @@ blockquote {
     font-style: italic;
 }
 
+/* ---------------third section------------------- */
+
+.thirdsection {
+    padding-block: 87px;
+    text-align: center;
+    min-height: 624px;
+    max-width: 1112px;
+    margin: auto;
+}
+
+.thirdsection h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--primary-color);
+    margin-bottom: 87px;
+}
+
+.thirdsection span {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.thirdsection p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.thirdsection_div_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thirdsection .thirdsection_div_2 {
+    margin-right: 5px;
+    width: 255px;
+    height: 335px;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: left;
+    position: relative;
+    /* border: 2px; */
+    /* box-shadow: 0 1px 1px rgba(245, 244, 244, 0.99); */
+    justify-content: center;
+}
+
+.thirdsection thirdsection_div_2(#playBTN, .video_list_video) {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.thirdsection div last-child {
+    margin-right: 0;
+}
+
+.thirdsection_div_2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-block: 8px;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    color: var(--primary);
+}
+
+.starImg {
+    width: calc(100% + 20px);
+    height: 154px;
+    margin-left: -10px;
+}
+
+
+.thirdsection_div_2 {
+    display: flex;
+    gap: 10px;
+    color: var(--primary);
+}
+
+/* ---------------section faq------------------- */
+
+section.faq {
+    padding-block: 64px 84px;
+    max-width: 930px;
+    margin: auto;
+}
+
+section.faq h2 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #071629;
+    margin-bottom: 74px;
+    text-align: center;
+}
+
+section.faq .faq_div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 74px 220px;
+}
+
+section.faq .faq_div .FAQ_card {
+    width: calc(50% - 220px);
+    min-width: 350px;
+}
+
+section.faq .faq_div .FAQ_card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #071629;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 350px;
+}
+
+section.fag .faq_div .FAQ_card>div:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0716297c;
+    width: 350px;
+    margin: auto;
+
+}
+
+/* ---------------fourth section------------------- */
+.fourth_section {
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fourth_section_div h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.fourth_section_div h2 span {
+    text-align: center;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.fourth_section_div h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.fourth_section_div p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.fourth_section_div_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.membership {
+    margin: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.membership img {
+    margin-bottom: 20px;
+}
+
+/* ---------------footer section------------------- */
 
 footer {
     color: white;
@@ -262,8 +441,13 @@ footer {
     padding: 50px;
 }
 
-.socialImage {
+.socialImageS {
     color: white;
+}
+
+footer div i {
+    display: flex;
+    margin: 5px;
 }
 
 footer p {
